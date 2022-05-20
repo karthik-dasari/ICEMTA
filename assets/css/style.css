@@ -891,6 +891,11 @@ section {
 /*--------------------------------------------------------------
 # Chefs
 --------------------------------------------------------------*/
+.chefs .member .img-fluid{
+  max-width: 100% !important;
+  height: 100% !important;
+}
+
 .chefs .member {
   text-align: center;
   margin-bottom: 20px;
