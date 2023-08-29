@@ -24,15 +24,15 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <script async src="https://api.countapi.xyz/hit/icemta2022.org/cb3d8bb0-9323-49ad-b65f-28b0e09e3fc8?callback=websiteVisits"></script>
+  <!-- <script async src="https://api.countapi.xyz/hit/icemta2022.org/cb3d8bb0-9323-49ad-b65f-28b0e09e3fc8?callback=websiteVisits"></script> -->
 </head>
 
 <body>
-  <script>
+  <!-- <script>
     function websiteVisits(response) {
       document.querySelector("#visits").textContent = response.value;
   }
-  </script>
+  </script> -->
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-scrolled">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
@@ -98,12 +98,15 @@
   </section><!-- End Hero -->
 
   <main id="main">
-    <marquee class="html-marquee" direction="left" behavior="scroll" scrollamount="7">
+    <!-- <marquee class="html-marquee" direction="left" behavior="scroll" scrollamount="7">
       <p style="margin-top: revert; margin-bottom: revert;">Number of people visited the website are <span id="visits"></span>.</p>
-      </marquee>
-      <marquee class="html-marquee" direction="left" behavior="scroll" scrollamount="7">
+      </marquee> -->
+      <!-- <marquee class="html-marquee" direction="left" behavior="scroll" scrollamount="7">
         <p style="margin-top: revert; margin-bottom: revert;">Abstract submission date extended to October 12, 2022 and full paper submission extended to November 10, 2022<span id="visits"></span>.</p>
-        </marquee>
+        </marquee> -->
+        <marquee onmouseover="this.stop();" onmouseout="this.start();" class="html-marquee" direction="left" behavior="scroll" scrollamount="7">
+      <p style="margin-top: revert; margin-bottom: revert;">SPIE conference proceedings were published.  Authors who have submitted your manuscripts in SPIE, <a style="color: white;" href="https://www.spiedigitallibrary.org/conference-proceedings-of-SPIE/12758.toc">Click here</a> to download your papers.</p>
+      </marquee>
     <!-- ======= About Us Section ======= -->
     <section id="about2" class="about2">
       <div class="container" data-aos="fade-up">
